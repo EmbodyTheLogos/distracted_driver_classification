@@ -1,0 +1,13 @@
+Proposed model with depthwise separable:
+
+Accuracy: 0.9915235333482043
+Total time to evaluate 4483 images: 150.6583216190338 seconds
+Average frame per second: 29.75607289278091 FPS
+
+
+
+Original Model:
+
+Accuracy: 0.994423377202766
+Total time to evaluate 4483 images: 1214.5618350505829 seconds
+Average frame per second: 3.6910430334848257 FPS
