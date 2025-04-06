@@ -66,7 +66,7 @@ print("Learning rate:", tf.keras.backend.eval(model.optimizer.lr))
 
 for i in range(1, 110):
     model.fit(training_images, training_labels, epochs=10, batch_size=16)
-    model.save("mod_11_{}_epochs".format(i*10))
+    model.save("original_model_without_GAP_{}_epochs".format(i*10))
     print("saved model with epoch " + str(i*10))
                
 status = "all_epochs_saved"
