@@ -2,7 +2,7 @@
 
 ## Important Notes:
 
-----------------------------------------------------------------------------------------------------------------------------------
+
 ### 1. Prepare the dataset:
 
 	-First, download the dataset from https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data. We will only use the "train" folder since it has labels.
