@@ -9,11 +9,11 @@
 
 	-Unzipped the dataset, and put the "train" folder in the "prepare dataset" folder.
 
-	-Run "reformat dataset.py". This will load in the dataset (with the label), resize the images, and convert them to numpy array. The newly formatted datase will be saved as "training_data.pickle"
+	-Run "reformat dataset.py". This will load in the dataset (with the label), resize the images, and convert them to numpy array. The newly formatted datase will be saved as "training_data.pickle".
 
 	-Then run "divide dataset.py". This will divide the dataset into train data (60%), validation data (20%), and test data (20%). Three files will be saved "new_training_data.pickle", "validation_data.pickle", and "test_data.pickle".
 
-	-If you want to save time, you can download the preprocessed dataset files above here: 
+	-If you want to save time, you can download the preprocessed dataset files mentioned above here: https://drive.google.com/drive/folders/10W37JG4QXYmeLFq6sfZXJ3iCuB4Ybk_o?usp=sharing
 
 
 ### 2. Train the model:
