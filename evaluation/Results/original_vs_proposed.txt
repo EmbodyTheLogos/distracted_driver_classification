@@ -1,0 +1,6 @@
+Original Model 200 epochs - Test Data
+4483/4483 [==============================] - 303s 68ms/step - loss: 0.0801 - accuracy: 0.9944
+ms / image: (303 * 1000) / 4483 = 67.5886683025
+Best Depth wise 200 epochs - Test Data
+4483/4483 [==============================] - 59s 13ms/step - loss: 0.0666 - accuracy: 0.9915
+ms / image: (59 * 1000) / 4483 = 13.1608298015
