@@ -38,27 +38,19 @@
 
 ## RUN MODELs ON RASPBERRY PI 4
 
-### For mod_6, mod_7, mod_8, mod_9, and mod_10 they are:
-	-mod_6 is actually mod_10 in the paper
- 	-mod_7 is actually mod_9 in the paper
-  	-mod_8 is actually mod_8 in the paper
-   	-mod_9 is actually mod_7 in the paper
-    -mod_10 is actually mod_6 in the paper
 
 ### 1. Update the system:
-	sudo apt-get update
-   sudo apt-get upgrade
+sudo apt-get update
+sudo apt-get upgrade
    
 ### 2. Update pip3:
-   
-   pip3 install --upgrade pip
+pip3 install --upgrade pip
    
 ### 3. Install tensorflow lite:
-   
-   pip3 install tflite_runtime==2.9.1
+pip3 install tflite_runtime==2.9.1
 
 ### 4. In the "raspberry pi" folder, there are two folders, "prepare for evaluation" and "evaluation":
-   -The "prepare for evaluation" contain code that converts the normal models to tflite models.
+-The "prepare for evaluation" contain code that converts the normal models to tflite models.
    
-   -The "evaluation" folder contain code to evaluate the proposed model vs the original model on test data. Therefore, copy the "test_data.pickle" and your tflite models to this folder if you want to evaluate the models.
+-The "evaluation" folder contain code to evaluate the proposed model vs the original model on test data. Therefore, copy the "test_data.pickle" and your tflite models to this folder if you want to evaluate the models.
    
