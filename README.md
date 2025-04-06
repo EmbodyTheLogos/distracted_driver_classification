@@ -40,8 +40,8 @@
 
 
 ### 1. Update the system:
-sudo apt-get update
-sudo apt-get upgrade
+	sudo apt-get update
+	sudo apt-get upgrade
    
 ### 2. Update pip3:
 pip3 install --upgrade pip
