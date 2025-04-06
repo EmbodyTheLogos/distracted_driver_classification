@@ -46,9 +46,7 @@
     -mod_10 is actually mod_6 in the paper
 
 ### 1. Update the system:
-   
-   sudo apt-get update
-   
+	sudo apt-get update
    sudo apt-get upgrade
    
 ### 2. Update pip3:
