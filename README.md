@@ -13,7 +13,7 @@
 
 	-Then run "divide dataset.py". This will divide the dataset into train data (60%), validation data (20%), and test data (20%). Three files will be saved "new_training_data.pickle", "validation_data.pickle", and "test_data.pickle".
 
-	-If you want to save time, you can download the preprocessed dataset files mentioned above here:[Preprocessed Dataset](https://drive.google.com/drive/folders/10W37JG4QXYmeLFq6sfZXJ3iCuB4Ybk_o?usp=sharing) 
+	-If you want to save time, you can download the preprocessed dataset files mentioned above here: https://drive.google.com/drive/folders/10W37JG4QXYmeLFq6sfZXJ3iCuB4Ybk_o?usp=sharing
 
 
 ### 2. Train the model:
