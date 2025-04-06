@@ -10,7 +10,7 @@ import sklearn
 
 
 # load train data
-new_training_data = pickle.load(open("../new_training_data.pickle", "rb"))
+new_training_data = pickle.load(open("new_training_data.pickle", "rb"))
 
 # Separate training_images and training_labels
 training_images = []
