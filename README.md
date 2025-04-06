@@ -9,6 +9,8 @@
    	-mod_9 is actually mod_7 in the paper
     -mod_10 is actually mod_6 in the paper
 
+### If you want to skip steps 1, you can download the preprocessed dataset files here: https://drive.google.com/drive/folders/10W37JG4QXYmeLFq6sfZXJ3iCuB4Ybk_o?usp=sharing
+
 ### 1. Prepare the dataset:
 
 	-First, download the dataset from https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data. We will only use the "train" folder since it has labels.
@@ -19,7 +21,6 @@
 
 	-Then run "divide dataset.py". This will divide the dataset into train data (60%), validation data (20%), and test data (20%). Three files will be saved "new_training_data.pickle", "validation_data.pickle", and "test_data.pickle".
 
-	-If you want to save time, you can download the preprocessed dataset files mentioned above here: https://drive.google.com/drive/folders/10W37JG4QXYmeLFq6sfZXJ3iCuB4Ybk_o?usp=sharing
 
 
 ### 2. Train the model:
