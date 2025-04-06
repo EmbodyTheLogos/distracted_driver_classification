@@ -3,7 +3,7 @@
 IMPORTANT NOTES:
 
 ----------------------------------------------------------------------------------------------------------------------------------
-## 1. Prepare the dataset:
+### 1. Prepare the dataset:
 
 	First, download the dataset from https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data. We will only use the "train" folder since it has labels.
 
@@ -15,11 +15,11 @@ IMPORTANT NOTES:
 	Then run "divide dataset.py". This will divide the dataset into train data (60%), validation data (20%), and test data (20%). Three files will be saved "new_training_data.pickle", "validation_data.pickle", and "test_data.pickle" 
 
 
-## 2. Train the model:
+### 2. Train the model:
 
 	The code for training all of our models is in the folder "training code" folder. Copy the "new_training_data.pickle" file to that folder to start training.
 
-## 3. Evaluate the model:
+### 3. Evaluate the model:
 	
 	The codes for evaluating all of our models is in the folder "evalutation\Evaluation Code" folder. Make sure you put the "validation_data.pickle" file in the same folder as the evaluation code.
 
@@ -31,17 +31,17 @@ IMPORTANT NOTES:
 
 RUN MODEL ON RASPBERRY PI 4
 
-## 1. Update the system:
+### 1. Update the system:
    
    sudo apt-get update
    
    sudo apt-get upgrade
    
-## 2. Update pip3
+### 2. Update pip3
    
    pip3 install --upgrade pip
    
-## 3. Install tensorflow lite
+### 3. Install tensorflow lite
    
    pip3 install tflite_runtime==2.9.1
 
