@@ -7,24 +7,24 @@
 
 	-First, download the dataset from https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data. We will only use the "train" folder since it has labels.
 
-	-Unzipped the dataset, and put the "train" folder in the "prepare dataset".
+	-Unzipped the dataset, and put the "train" folder in the "prepare dataset" folder.
 
 	-Run "reformat dataset.py". This will load in the dataset (with the label), resize the images, and convert them to numpy array. The newly formatted datase will be saved as "training_data.pickle"
 
 	-Then run "divide dataset.py". This will divide the dataset into train data (60%), validation data (20%), and test data (20%). Three files will be saved "new_training_data.pickle", "validation_data.pickle", and "test_data.pickle".
 
-	-If you want to save time, you can download the files above here: 
+	-If you want to save time, you can download the preprocessed dataset files above here: 
 
 
 ### 2. Train the model:
 
-	-The code for training all of our models is in the folder "training code" folder. Copy the "new_training_data.pickle" file to that folder to start training.
+	-The code for training all of our models is in the folder "training code" folder. Put the "new_training_data.pickle" file in that folder to start training.
 
 ### 3. Evaluate the model:
 	
-	-The codes for evaluating all of our models is in the folder "evalutation\Evaluation Code" folder. Make sure you put the "validation_data.pickle" file in the same folder as the evaluation code.
+	-The codes for evaluating all of our models is in the folder "evalutation\Evaluation Code" folder. Make sure you put the "validation_data.pickle" file in the "Evaluation Code" folder.
 
-	-Note that if you want to load in saved models in the "evaluation" folder, you need Tensorflow version 2.9.1.
+	-Note that if you want to load in saved models that I trained in the "evaluation" folder, you need Tensorflow version 2.9.1.
 
 	-Or you can retrain the models with whatever version Tensorflow you have, and use that same Tensorflow version to load in your trained models (this takes long time).
 
