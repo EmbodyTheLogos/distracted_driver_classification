@@ -29,7 +29,7 @@ IMPORTANT NOTES:
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
-RUN MODEL ON RASPBERRY PI 4
+##RUN MODEL ON RASPBERRY PI 4
 
 1. Update the system:
    
