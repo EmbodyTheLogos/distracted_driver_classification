@@ -9,7 +9,7 @@
    	-mod_9 is actually mod_7 in the paper
     -mod_10 is actually mod_6 in the paper
 
-### If you want to skip steps 1, you can download the preprocessed dataset files here: https://drive.google.com/drive/folders/10W37JG4QXYmeLFq6sfZXJ3iCuB4Ybk_o?usp=sharing
+### If you want to skip step 1, you can download the preprocessed dataset files here: https://drive.google.com/drive/folders/10W37JG4QXYmeLFq6sfZXJ3iCuB4Ybk_o?usp=sharing
 
 ### 1. Prepare the dataset:
 
