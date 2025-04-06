@@ -38,6 +38,13 @@
 
 ## RUN MODELs ON RASPBERRY PI 4
 
+### For mod_6, mod_7, mod_8, mod_9, and mod_10 they are:
+	-mod_6 is actually mod_10 in the paper
+ 	-mod_7 is actually mod_9 in the paper
+  	-mod_8 is actually mod_8 in the paper
+   	-mod_9 is actually mod_7 in the paper
+    -mod_10 is actually mod_6 in the paper
+
 ### 1. Update the system:
    
    sudo apt-get update
