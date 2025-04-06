@@ -29,7 +29,7 @@
 
 ### 3. Evaluate the model:
 	
-	-The codes for evaluating all of our models is in the folder "evalutation\Evaluation Code" folder. Make sure you put the "validation_data.pickle" file in the "Evaluation Code" folder.
+	-The codes for evaluating all of our models is in the folder "evalutation\Evaluation Code" folder. Make sure you put the "validation_data.pickle" and "test_data.pickle" files in the "Evaluation Code" folder.
 
 	-Note that if you want to load in saved models (that I trained) in the "evaluation" folder, you need Tensorflow version 2.9.1.
 
