@@ -44,13 +44,13 @@
 	sudo apt-get upgrade
    
 ### 2. Update pip3:
-pip3 install --upgrade pip
+	pip3 install --upgrade pip
    
 ### 3. Install tensorflow lite:
-pip3 install tflite_runtime==2.9.1
+	pip3 install tflite_runtime==2.9.1
 
 ### 4. In the "raspberry pi" folder, there are two folders, "prepare for evaluation" and "evaluation":
--The "prepare for evaluation" contain code that converts the normal models to tflite models.
+	-The "prepare for evaluation" contain code that converts the normal models to tflite models.
    
--The "evaluation" folder contain code to evaluate the proposed model vs the original model on test data. Therefore, copy the "test_data.pickle" and your tflite models to this folder if you want to evaluate the models.
+	-The "evaluation" folder contain code to evaluate the proposed model vs the original model on test data. Therefore, copy the "test_data.pickle" and your tflite models to this folder if you want to evaluate the models.
    
