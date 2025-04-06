@@ -48,5 +48,6 @@
 
 ### 4. In the "raspberry pi" folder, there are two folders, "prepare for evaluation" and "evaluation".
    a) The "prepare for evaluation" contain code that converts the normal models to tflite models.
+   
    b) The "evaluation" folder contain code to evaluate the proposed model vs the original model on test data. Therefore, copy the "test_data.pickle" and your tflite models to this folder if you want to evaluate the models.
    
