@@ -31,30 +31,31 @@ model.add(Conv2D(16, (7, 7), padding="same"))
 model.add(Conv2D(16, (7, 7), padding="same"))
 model.add(AveragePooling2D(pool_size=(2, 2)))
 model.add(Activation('relu'))
-model.add(tf.keras.layers.Flatten())
+
 
 #block 2
-# model.add(Conv2D(32, (5, 5), padding="same"))
-# model.add(Conv2D(32, (5, 5), padding="same"))
-# model.add(AveragePooling2D(pool_size=(2, 2)))
-# model.add(Activation('relu'))
+model.add(Conv2D(32, (5, 5), padding="same"))
+model.add(Conv2D(32, (5, 5), padding="same"))
+model.add(AveragePooling2D(pool_size=(2, 2)))
+model.add(Activation('relu'))
 
 #block 3
-# model.add(Conv2D(64, (3, 3), padding="same"))
-# model.add(Conv2D(64, (3, 3), padding="same"))
-# model.add(AveragePooling2D(pool_size=(2, 2)))
-# model.add(Activation('relu'))
+model.add(Conv2D(64, (3, 3), padding="same"))
+model.add(Conv2D(64, (3, 3), padding="same"))
+model.add(AveragePooling2D(pool_size=(2, 2)))
+model.add(Activation('relu'))
 
 #block 4
-# model.add(Conv2D(128, (3, 3), padding="same"))
-# model.add(Conv2D(128, (3, 3), padding="same"))
-# model.add(AveragePooling2D(pool_size=(2, 2)))
-# model.add(Activation('relu'))
+model.add(Conv2D(128, (3, 3), padding="same"))
+model.add(Conv2D(128, (3, 3), padding="same"))
+model.add(AveragePooling2D(pool_size=(2, 2)))
+model.add(Activation('relu'))
 
 
-# model.add(Conv2D(256, (3, 3), padding="same"))
+model.add(Conv2D(256, (3, 3), padding="same"))
 # model.add(Conv2D(10, (3, 3), padding="same"))
 # model.add(GlobalAveragePooling2D())
+model.add(tf.keras.layers.Flatten())
 model.add(Dense(10, activation=tf.nn.softmax)) # add output layer
 
 optimizer = tf.keras.optimizers.Adam(0.0001) #learning rate
@@ -65,7 +66,7 @@ print("Learning rate:", tf.keras.backend.eval(model.optimizer.lr))
 
 for i in range(1, 110):
     model.fit(training_images, training_labels, epochs=10, batch_size=16)
-    model.save("mod_6_{}_epochs".format(i*10))
+    model.save("mod_10_{}_epochs".format(i*10))
     print("saved model with epoch " + str(i*10))
                
 status = "all_epochs_saved"
