@@ -4,75 +4,75 @@ import numpy as np
 
 
 
-print("original with GAP")
+print("\noriginal with GAP")
 model = tf.keras.models.load_model('original_model_200_epochs')
 print(model.summary())
 
 
-print("original model without GAP")
-model = tf.keras.models.load_model('mod_11_200_epochs')
+print("\noriginal model without GAP")
+model = tf.keras.models.load_model('original_model_without_GAP__200_epochs')
 print(model.summary())
 
-print("mod_1")
+print("\nmod_1")
 model = tf.keras.models.load_model('mod_1_200_epochs')
 print(model.summary())
 
-print("mod_2")
+print("\nmod_2")
 model = tf.keras.models.load_model('mod_2_200_epochs')
 print(model.summary())
 
-print("mod_3")
+print("\nmod_3")
 model = tf.keras.models.load_model('mod_3_200_epochs')
 print(model.summary())
 
-print("mod_4")
+print("\nmod_4")
 model = tf.keras.models.load_model('mod_4_200_epochs')
 print(model.summary())
 
 
-print("mod_5")
+print("\nmod_5")
 model = tf.keras.models.load_model('mod_5_200_epochs')
 print(model.summary())
 
 
-print("mod_6")
+print("\nmod_6")
 model = tf.keras.models.load_model('mod_6_200_epochs')
 print(model.summary())
 
 
-print("mod_7")
+print("\nmod_7")
 model = tf.keras.models.load_model('mod_7_200_epochs')
 print(model.summary())
 
 
-print("mod_8")
+print("\nmod_8")
 model = tf.keras.models.load_model('mod_8_200_epochs')
 print(model.summary())
 
 
-print("mod_9")
+print("\nmod_9")
 model = tf.keras.models.load_model('mod_9_200_epochs')
 print(model.summary())
 
 
-print("mod_10")
+print("\nmod_10")
 model = tf.keras.models.load_model('mod_10_200_epochs')
 print(model.summary())
 
-print("new_model_1")
+print("\nnew_model_1")
 model = tf.keras.models.load_model('new_model_1_200_epochs')
 print(model.summary())
 
 
-print("new_model_2")
+print("\nnew_model_2")
 model = tf.keras.models.load_model('new_model_2_200_epochs')
 print(model.summary())
 
 
-print("new_model_3")
+print("\nnew_model_3")
 model = tf.keras.models.load_model('new_model_3_200_epochs')
 print(model.summary())
 
-print("depthwise_best")
+print("\ndepthwise_best")
 model = tf.keras.models.load_model('depthwise_best_200_epochs')
 print(model.summary())
